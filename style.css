@@ -1,0 +1,44 @@
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card1 {
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(0, 255, 72);
+}
+
+.card2 {
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    background-color: burlywood;
+}
+
+.card3 {
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    background-color: coral;
+}
+
+@media only screen and (max-width: 768px) {
+    .parent {
+        flex-direction: column;
+    }
+
+}
+
+body {
+    background-color: yellow;
+}
+
+h1 {
+    background-color: aqua;
+
+}
